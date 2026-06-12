@@ -1,15 +1,5 @@
-## Desarrollo de Aplicaciones 1
-
-### TPO Parte 2
-**Integrantes:**
-- Nicolas Facundo Llousas. LU: 1147795
-- Sebastian Andres Deya. LU: 1167157
-- Valentina Frisoli. LU: 1167852
-- Ignacio Sanchez Zinny. LU: 1167840
-- Ignacio Bergallo. LU: 1173481
-- Francisco Garriga. LU:1168942
-
-Consigna: Realizar un sistema en React Native, que permita realizar:
+Consigna: 
+Realizar un sistema en React Native, que permita realizar:
 • operaciones CRUD (altas, bajas, modificaciones y eliminaciones) de datos.
 • menú de usuario, con dos pantallas: acerca de (nombre y foto de los participantes del 
 equipo) y un CRUD
@@ -17,3 +7,14 @@ equipo) y un CRUD
 de datos en formato JSON
 • Acceso a base de datos local
 • Test según lo visto en la materia
+
+Debemos usar:
+axios
+expo-SQLite
+react
+react dom
+react native web
+
+expo para emular
+npx create-expo-app
+mock api
