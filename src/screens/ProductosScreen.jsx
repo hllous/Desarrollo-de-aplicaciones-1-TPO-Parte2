@@ -23,14 +23,6 @@ export default function ProductosScreen() {
 		return ProductoLocalService;
 	}
 
-	useEffect (()=>{
-
-		const resultado = buscarPorId(productos,"1")
-		console.log(resultado)
-		
-	},[productos])
-
-
 	const cargar = useCallback(async () => {
 		setLoading(true);
 		setError(null);
