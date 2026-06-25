@@ -7,21 +7,6 @@ import ProductoForm from '../components/ProductoForm';
 import ProductoApiService from '../services/ProductoApiService';
 import ProductoLocalService from '../services/ProductoLocalService';
 
-
-function buscarPorId(productos, id){
-
-	for(let i=0; i<productos.length; i++){
-
-		if(productos[i].id == id){
-
-			return productos[i]
-
-		}
-	}
-
-	return null
-}
-
 export default function ProductosScreen() {
 	const [fuente, setFuente] = useState('remota');
 
