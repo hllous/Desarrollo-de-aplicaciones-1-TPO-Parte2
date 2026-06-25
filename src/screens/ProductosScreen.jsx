@@ -10,8 +10,10 @@ import ProductoLocalService from '../services/ProductoLocalService';
 
 function buscarPorId(productos, id){
 
-	for(let i=0; i< productos.length; i++){
+	for(let i=0; i<productos.length; i++){
+
 		if(productos[i].id == id){
+
 			return productos[i]
 
 		}
@@ -37,8 +39,10 @@ export default function ProductosScreen() {
 	}
 
 	useEffect (()=>{
+
 		const resultado = buscarPorId(productos,"1")
 		console.log(resultado)
+		
 	},[productos])
 
 
