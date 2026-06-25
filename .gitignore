@@ -13,3 +13,9 @@ yarn-debug.*
 yarn-error.*
 .env
 bash.exe.stackdump
+
+# Android
+android/local.properties
+android/.gradle/
+android/build/
+android/app/build/
