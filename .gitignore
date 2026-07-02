@@ -1,5 +1,11 @@
 node_modules/
 .expo/
+
+# Android
+android/local.properties
+android/.gradle/
+android/build/
+android/app/build/
 dist/
 web-build/
 *.jks
