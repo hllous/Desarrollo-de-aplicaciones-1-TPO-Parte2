@@ -4,7 +4,7 @@ import { Ionicons } from '@expo/vector-icons';
 
 import HomeScreen from '../screens/HomeScreen';
 import ProductosScreen from '../screens/ProductosScreen';
-import DispositivoScreen from '../screens/DispositivoScreen';
+import PanelStockScreen from '../screens/PanelStockScreen';
 import AcercaDeScreen from '../screens/AcercaDeScreen';
 
 const Drawer = createDrawerNavigator();
@@ -43,12 +43,12 @@ export default function AppDrawer() {
 				}}
 			/>
 			<Drawer.Screen
-				name="Dispositivo"
-				component={DispositivoScreen}
+				name="PanelStock"
+				component={PanelStockScreen}
 				options={{
-					title: 'Dispositivo',
+					title: 'Panel de Stock',
 					drawerIcon: ({ color, size }) => (
-						<Ionicons name="hardware-chip-outline" size={size} color={color} />
+						<Ionicons name="pie-chart-outline" size={size} color={color} />
 					),
 				}}
 			/>

@@ -13,7 +13,7 @@
 
 ### Cómo ejecutar el proyecto
 
-> El proyecto usa un **módulo nativo Android** (Kotlin), por lo que requiere compilación nativa. No se puede correr con Expo Go.
+> El proyecto usa un **componente nativo Android** (Kotlin), por lo que requiere compilación nativa. No se puede correr con Expo Go.
 
 **Requisitos previos:**
 - [Node.js](https://nodejs.org/) instalado
@@ -46,7 +46,7 @@
    ```
    La primera vez tarda varios minutos porque compila el código nativo con Gradle.
 
-5. **Navegar a la pantalla "Dispositivo"**
-   Abrir el menú lateral (drawer) y seleccionar **Dispositivo** para ver la información obtenida desde el módulo nativo Kotlin.
+5. **Navegar a la pantalla "Panel de Stock"**
+   Abrir el menú lateral (drawer) y seleccionar **Panel de Stock** para ver el componente nativo: un anillo dibujado en Kotlin (`Canvas`) que se puede tocar (o pasarle el mouse en el emulador) para ver los productos de cada nivel de stock.
 
 > Para correr en celular físico: habilitar **Depuración USB** en el dispositivo y conectarlo por cable antes del paso 4.
